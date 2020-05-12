@@ -42,6 +42,10 @@ body {
     background-color: hsl(0, 0%, 98%);
 }
 
+label {
+    display: block;
+}
+
 .text-poppins {
     font-family: 'Poppins', sans-serif;
 }
@@ -134,8 +138,12 @@ body {
 
 .card-image {
     position: relative;
-    margin-right: 0.5rem;
+    margin-top: 50px;
     float: right;
+}
+
+footer {
+    margin: 0.5rem auto;
 }
 
 @media(min-width: 1225px) and (min-height: 900px) {
