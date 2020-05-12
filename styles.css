@@ -39,6 +39,7 @@ body {
     margin: 0;
     padding: 0;
     font-size: 15px;
+    background-color: hsl(0, 0%, 98%);
 }
 
 .text-poppins {
@@ -86,10 +87,16 @@ body {
     }
 }
 
+.group-cards {
+    display: flex;
+    flex-direction: column;
+}
+
 .card {
     padding: 35px;
     max-width: 300px;
-    height: 185px;
+    min-height: 185px;
+    height: 100%;
     margin: 20px;
     border-radius: 4px;
     box-shadow: 0px 12px 48px -20px hsl(229, 6%, 66%);
@@ -105,7 +112,6 @@ body {
 }
 
 .card-karma {
-    margin-top: 40px;
     border-top: solid 4px hsl(34, 97%, 64%);
 }
 
